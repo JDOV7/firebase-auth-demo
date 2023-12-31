@@ -14,7 +14,7 @@ onMounted(async () => {
     console.log(objUser.value);
   } catch (error) {
     console.log(error);
-    route.push("/");
+    // route.push("/");
   }
 });
 </script>
